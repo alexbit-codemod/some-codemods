@@ -1,0 +1,17 @@
+id: change_ts
+language: typescript
+rule:
+  pattern: import {$$$IDENTS} from './barrel'
+rewriters:
+- id: rewrite-identifer
+  rule:
+    pattern: $IDENT
+    kind: identifier
+  fix: import $IDENT from './barrel/$IDENT'
+transform:
+  IMPORTS:
+    rewrite:
+      rewriters: [rewrite-identifer]
+      source: $$$IDENTS
+      joinBy: "\n"
+fix: $IMPORTS

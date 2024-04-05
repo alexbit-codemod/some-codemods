@@ -1,0 +1,11 @@
+{
+  "version": "1.0.1",
+  "private": false,
+  "name": "barrel-imports-expansion-ast-grep",
+  "engine": "ast-grep",
+  "meta": {
+    "tags":["js"],
+    "useCaseCategory":"best practices"
+  },
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json" 
+}

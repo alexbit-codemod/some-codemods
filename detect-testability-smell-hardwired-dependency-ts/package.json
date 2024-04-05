@@ -1,0 +1,21 @@
+{
+	"name": "idetect-testability-smell-hardwired-dependency-ts",
+	"dependencies": {},
+	"devDependencies": {
+		"vitest": "^1.0.1",
+		"@types/node": "20.9.0",
+		"typescript": "5.2.2",
+		"prettier": "^3.1.0",
+		"ts-node": "^10.9.1",
+		"jscodeshift": "^0.15.1",
+		"@types/jscodeshift": "^0.11.10"
+	},
+	"main": "./dist/index.cjs",
+	"scripts": {
+		"test": "vitest run",
+		"test:watch": "vitest watch"
+	},
+	"license": "MIT",
+	"files": ["README.md", ".codemodrc.json", "./dist/index.cjs"],
+	"type": "module"
+}
