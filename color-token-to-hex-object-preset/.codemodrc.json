@@ -1,0 +1,12 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "version": "1.0.0",
+  "private": false,
+  "name": "color-token-to-hex-object-preset",
+  "engine": "recipe",
+  "names": ["color-token-to-hex-object-json", "color-token-to-hex-object-js-ts"],
+  "meta": {
+    "tags": ["desing tokens"],
+    "git": "https://github.com/alexbit-codemod/some-codemods/tree/main"
+  }
+}
