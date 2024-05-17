@@ -7,10 +7,9 @@ export default function transform(
 ): string | undefined {
   const j = api.jscodeshift;
   const root = j(file.source);
-
-  root.find(j.ClassDeclaration).forEach((path) => {
-    const className = path.value.id.name;
-    let hasInternalDependency = false;
+  ROOT.FIND(J.CLASSDECLARATION).FOREACH((PATH) => {
+    CONST CLASSNAME = PATH.VALUE.ID.NAME;
+    LET HASINTERNALDEPENDENCY = FALSE;
 
     j(path)
       .find(j.NewExpression)

@@ -1,0 +1,14 @@
+# To see how to write a rule, check out the documentation at: https: //ast-grep.github.io/guide/rule-config.html
+  id: color-token-to-hex-object
+language: json
+rule:
+    pattern:
+        context: '{ "$value": "$VALUE" }'
+        selector: pair
+    inside:
+        kind: object
+        has:
+            pattern: 
+                context: '{ "$type": "color" }'
+                selector: pair
+fix: '"$value": { "hex": "$VALUE" }'
