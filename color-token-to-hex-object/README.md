@@ -1,7 +1,3 @@
-# Color token to hex object
-
-## Description
-
 For tokens of the type 'color' (not other tokens), transform $value into an object with a 'hex' key, where the value remains the same as the previous $value
 
 ### Before
