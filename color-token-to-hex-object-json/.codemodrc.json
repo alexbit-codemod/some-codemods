@@ -2,7 +2,7 @@
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "version": "1.0.2",
   "private": false,
-  "name": "color-token-to-hex-object",
+  "name": "color-token-to-hex-object-json",
   "engine": "ast-grep",
   "meta": {
     "tags": ["design tokens"],
