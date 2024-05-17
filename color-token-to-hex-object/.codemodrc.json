@@ -1,10 +1,11 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "name": "color-token-to-hex-object",
   "engine": "ast-grep",
   "meta": {
-    "tags": ["design tokens"]
+    "tags": ["design tokens"],
+    "git": "https://github.com/alexbit-codemod/some-codemods/tree/main/color-token-to-hex-object"
   }
 }
