@@ -1,5 +1,4 @@
-# To see how to write a rule, check out the documentation at: https: //ast-grep.github.io/guide/rule-config.html
-  id: color-token-to-hex-object
+id: color-token-to-hex-object
 language: json
 rule:
     pattern:
