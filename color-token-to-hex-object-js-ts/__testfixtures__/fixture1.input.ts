@@ -1,0 +1,12 @@
+const tokens = {
+  interactive: {
+    '100': {
+      $value: '<some string>',
+      $type: 'color',
+    },
+  },
+  someOtherColorToken: {
+    $value: '#DBF0FF',
+    $type: 'color',
+  },
+};
