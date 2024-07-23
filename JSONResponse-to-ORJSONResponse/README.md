@@ -1,0 +1,1 @@
+This custom codemod replaces `JSONResponse` with `ORJSONResponse`to bring consistency to the way we handle JSON responses in our codebase. Besides updating the response class, it also updates the imports to use `from src.json_encoding import ORJSONResponse`.
