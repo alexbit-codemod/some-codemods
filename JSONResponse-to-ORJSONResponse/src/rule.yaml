@@ -1,8 +1,6 @@
 ---
 id: use_custom_json_response__update_usages
 language: python
-message: Use src.json_encoding.ORJSONResponse to ensure custom JSON serialization logic is applied
-severity: error
 rule:
   pattern: JSONResponse
   kind: identifier
@@ -15,8 +13,6 @@ fix: ORJSONResponse
 ---
 id: use_custom_json_response__update_json_response_imports
 language: python
-message: Use src.json_encoding.ORJSONResponse to ensure custom JSON serialization logic is applied
-severity: error
 rule:
   any:
     - pattern: from fastapi.responses import JSONResponse

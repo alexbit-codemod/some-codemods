@@ -1,11 +1,13 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "json-response-to-orjson-response",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "engine": "ast-grep",
   "private": false,
   "arguments": [],
   "meta": {
-    "tags": ["python"]
+    "tags": [
+      "python"
+    ]
   }
 }
