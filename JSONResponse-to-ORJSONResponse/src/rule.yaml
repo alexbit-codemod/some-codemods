@@ -1,6 +1,25 @@
-# To see how to write a rule, check out the documentation at: https: //ast-grep.github.io/guide/rule-config.html
-  id: test - ast - grep
-language: bash - exp
+---
+id: use_custom_json_response__update_usages
+language: python
+message: Use src.json_encoding.ORJSONResponse to ensure custom JSON serialization logic is applied
+severity: error
 rule:
-  pattern: DATA_DIR = $A
-fix: DATA_DIR = "/new/path/to/resources"
+  pattern: JSONResponse
+  kind: identifier
+  inside:
+    any:
+      - kind: type
+      - kind: call
+fix: ORJSONResponse
+
+---
+id: use_custom_json_response__update_json_response_imports
+language: python
+message: Use src.json_encoding.ORJSONResponse to ensure custom JSON serialization logic is applied
+severity: error
+rule:
+  any:
+    - pattern: from fastapi.responses import JSONResponse
+    - pattern: from fastapi.responses import ORJSONResponse
+    - pattern: from starlette.responses import JSONResponse
+fix: from src.json_encoding import ORJSONResponse
