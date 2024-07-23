@@ -8,6 +8,7 @@
   "meta": {
     "tags": [
       "python"
-    ]
+    ],
+    "git": "https://github.com/alexbit-codemod/some-codemods"
   }
 }
