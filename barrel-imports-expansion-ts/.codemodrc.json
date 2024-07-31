@@ -1,11 +1,16 @@
 {
-  "version": "1.0.0",
-  "private": false,
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "barrel-imports-expansion-ts",
+  "version": "1.0.2",
   "engine": "ast-grep",
+  "private": false,
+  "arguments": [],
   "meta": {
-    "tags":["ts"],
-    "useCaseCategory":"best practices"
-  },
-  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json" 
+    "tags": [
+      "ts",
+      "imports",
+      "performance"
+    ],
+    "git": "https://github.com/alexbit-codemod/some-codemods/tree/main/barrel-imports-expansion-ts"
+  }
 }
