@@ -1,0 +1,12 @@
+{
+  "name": "e18e-module-replacements-recipe",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {},
+  "files": [
+    "README.md",
+    ".codemodrc.json"
+  ],
+  "type": "module",
+  "author": "alexbit-codemod"
+}
