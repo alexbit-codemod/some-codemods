@@ -1,6 +1,1 @@
-Short description
-
-Detailed description
-
-## Example
-undefined
+This recipe has 150+ codemods in this repo: https://github.com/es-tooling/module-replacements-codemods
