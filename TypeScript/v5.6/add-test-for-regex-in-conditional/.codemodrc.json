@@ -1,0 +1,12 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "TypeScript/v5.6/add-test-for-regex-in-conditional",
+  "version": "1.0.0",
+  "engine": "jscodeshift",
+  "private": false,
+  "arguments": [],
+  "meta": {
+    "git": "https://github.com/alexbit/some-codemods",
+    "tags": ["TypeScript", "best-practices"]
+  }
+}
